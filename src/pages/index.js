@@ -2,6 +2,7 @@ import React from "react";
 
 import { Select } from "antd";
 import SelectPlus from "../component/SelectPlus";
+import From from "../component/Form";
 import "antd/dist/antd.css";
 
 const Option = Select.Option;
@@ -49,6 +50,7 @@ class App extends React.Component {
             {children}
           </Select>
         </div>
+        <From />
       </div>
     );
   }
